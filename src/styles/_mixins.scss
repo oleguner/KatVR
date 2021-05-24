@@ -1,0 +1,56 @@
+@import './vars';
+
+@mixin HEADLINE_1 {
+  font-family: "Mark-Heavy", "Sans Serif";
+  line-height: 130%;
+  font-size: 46px;
+  color: $White;
+}
+
+@mixin HEADLINE_2 {
+  font-family: "Mark-Heavy", "Sans Serif";
+  line-height: auto;
+  font-size: 36px;
+}
+
+@mixin HEADLINE_3 {
+  font-family: "Mark-Heavy", "Sans Serif";
+  line-height: auto;
+  font-size: 16px;
+}
+
+@mixin Buttons_Links{
+  font-family: "Mark-Medium", "Sans Serif";
+  line-height: auto;
+  font-size: 16px;
+}
+
+@mixin Text_1 {
+  font-family: "Mark-Regular", "Sans Serif";
+  line-height: 150%;
+  font-size: 16px;
+}
+
+@mixin Text_2 {
+  font-family: "Mark-Regular", "Sans Serif";
+  line-height: auto;
+  font-size: 14px;
+}
+
+@mixin HEADLINE_1_mob {
+  font-family: "Mark-Heavy", "Sans Serif";
+  line-height: 130%;
+  font-size: 26px;
+}
+
+@mixin HEADLINE_2_mob {
+  font-family: "Mark-Heavy", "Sans Serif";
+  line-height: 130%;
+  font-size: 21px;
+}
+
+@mixin Text_3_mob {
+  font-family: "Mark-Regular", "Sans Serif";
+  line-height: auto;
+  font-size: 12px;
+}

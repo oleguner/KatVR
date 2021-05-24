@@ -146,13 +146,13 @@ module.exports = {
         }],
       },
       {
-        test: /\.(?:|woff2)$/,
+        test: /\.(?:|woff2|woff|eot|ttf)$/,
         use: [{
           loader: 'file-loader',
           options: {
             name: `./fonts/${filename('[ext]')}`
           }
-        }],
+        }]
       }
     ]
   }

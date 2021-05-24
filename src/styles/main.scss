@@ -1,9 +1,7 @@
 @import '~normalize.css';
+@import './_fonts';
+@import './_mixins';
 
 h1 {
-  color: blue;
-}
-
-body {
-  background-image: url("../img/IMGWorldsofAdventure.jpg");
+  @include HEADLINE_1;
 }

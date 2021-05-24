@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Mark-Regular';
+  src: local('FF Mark Regular'), local('FF-Mark-Regular'),
+      url('../fonts/Mark-Regular/Mark-Regular.woff2') format('woff2'),
+      url('../fonts/Mark-Regular/Mark-Regular.woff') format('woff'),
+      url('../fonts/Mark-Regular/Mark-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mark-Medium';
+  src: local('FF Mark Medium'), local('FF-Mark-Medium'),
+      url('../fonts/Mark-Medium/Mark-Medium.woff2') format('woff2'),
+      url('../fonts/Mark-Medium/Mark-Medium.woff') format('woff'),
+      url('../fonts/Mark-Medium/Mark-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mark-Heavy';
+  src: local('FF Mark Heavy'), local('FF-Mark-Heavy'),
+      url('../fonts/Mark-Heavy/Mark-Heavy.woff2') format('woff2'),
+      url('../fonts/Mark-Heavy/Mark-Heavy.woff') format('woff'),
+      url('../fonts/Mark-Heavy/Mark-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quantum';
+  src: url('../fonts/Quantum/QuantumRegular.woff2');
+  src: local('Quantum'), local('QuantumRegular'),
+      url('../fonts/Quantum/QuantumRegular.eot') format('embedded-opentype'),
+      url('../fonts/Quantum/QuantumRegular.woff2') format('woff2'),
+      url('../fonts/Quantum/QuantumRegular.woff') format('woff'),
+      url('../fonts/Quantum/QuantumRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
