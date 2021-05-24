@@ -44,7 +44,7 @@ const plugins = () => {
     }),
     new CopyWebpackPlugin({
       patterns: [
-        {from: path.resolve(__dirname, 'src/assets') , to: path.resolve(__dirname, 'app')}
+        {from: path.resolve(__dirname, 'src/assets') , to: path.resolve(__dirname, 'docs')}
       ]
     }),
   ];
@@ -84,12 +84,12 @@ module.exports = {
   entry: './js/main.js',
   output: {
     filename: `./js/${filename('js')}`,
-    path: path.resolve(__dirname, 'app'),
+    path: path.resolve(__dirname, 'docs'),
     publicPath: ''
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: path.resolve(__dirname, 'app'),
+    contentBase: path.resolve(__dirname, 'docs'),
     open: true,
     compress: true,
     hot: true,
